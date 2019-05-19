@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased !important;
+  background-image: url("https://cooggies.com/wp-content/uploads/2015/01/Parallax-Background-Dark-02.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  width: 100%;
+  background: #fff;
+  border-radius: 4px;
+  padding: 30px 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.container form > img {
+  margin: auto;
+  margin-bottom: 10px;
+}
+.container form input {
+  height: 40px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #444;
+}
+
+.container form span {
+  color: red;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.container form button {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 20px;
+  border: 0;
+  background: #4caf50;
+  color: #fff;
+  cursor: pointer;
+  opacity: 0.9;
+  margin-top: 20px;
+}
+
+.container form p {
+  text-align: center;
+  color: #4caf50;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.container form button:hover {
+  opacity: 1;
+}
+
+.handle-message {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
